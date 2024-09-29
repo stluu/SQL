@@ -1,4 +1,4 @@
-*/Database/*
+#This project utilizes the following Bank data:
 
 CREATE TABLE bank_products (
     product_id INTEGER PRIMARY KEY,
@@ -27,7 +27,8 @@ VALUES
     (14, 'Rewards Credit Card', 'Credit Card', 21.99, 0.00, 0.00),
     (15, 'Auto Loan', 'Loan', 4.25, 0.00, 20000.00);
 
-*/SQL Query/*
+#For this project, I used SQL to query the Bank database to get information about their products options.
+
 
 -- Select all the bank product names so we know what our options are
 select product_name
